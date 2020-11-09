@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','App\Http\Controllers\PostsController@index') 
 ->name('top');
-Route::get('hello/add','App\Http\Controllers\HelloController@add');
+
+Route::resource('posts','App\Http\Controllers\PostsController',['only'=>
+['create','store']]);
 
