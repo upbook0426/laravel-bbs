@@ -17,7 +17,7 @@ class PostsController extends Controller
     }
     public function create()
     {
-        return view('posts,create');
+        return view('posts.create');
     }
 
     public function store(Request $request)
@@ -30,4 +30,13 @@ class PostsController extends Controller
         Post::create($params);
         return redirect()->route('top');
     }
+
+    public function show($post_id)
+{
+    $post = Post::findOrFail($post_id);
+
+    return view('posts.show', [
+        'post' => $post,
+    ]);
+}
 }
