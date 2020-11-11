@@ -1,11 +1,11 @@
 @extends('layout.layout')
 
 @section('content')
-<div class="mb-4">
+    <div class="ml-5 mb-4 mt-3">
     <a href="{{ route('posts.create') }}" class="btn btn-primary">
         投稿を新規作成する
     </a>
-</div>
+    </div>
     <div class="container mt-4">
         @foreach ($posts as $post)
             <div class="card mb-4">
@@ -30,8 +30,12 @@
                             コメント {{ $post->comments->count() }}件
                         </span>
                     @endif
+                    
                 </div>
             </div>
-        @endforeach
+            @endforeach
+            {{ $posts->links() }}
+            
     </div>
+    
 @endsection
