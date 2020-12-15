@@ -1,6 +1,7 @@
 # laravel-bbs
  
-"Physics_Sim_Py" is a tutorial of physics simulations with Python.
+A simple bulletin board system based on PHP/Laravel and MySQL for lerning with laravel of CRUD operation
+targeted of inductory laravel.
  
 # DEMO
  
