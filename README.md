@@ -1,31 +1,20 @@
+![ソースコードサイズ](https://img.shields.io/github/languages/code-size/upbook0426/laravel-bbs)
+
 # laravel-bbs
  
 A simple bulletin board system based on PHP/Laravel and MySQL for lerning with laravel of CRUD operation
 targeted of inductory laravel.
  
-# DEMO
- 
-You can learn how to making cute physics simulations (looks retro game).
- 
-![](https://cpp-learning.com/wp-content/uploads/2019/05/pyxel-190505-161951.gif)
- 
-This animation is a "Cat playing on trampoline"!
-You can get basic skills for making physics simulations.
- 
+  
 # Features
  
-Physics_Sim_Py used [pyxel](https://github.com/kitao/pyxel) only.
- 
-```python
-import pyxel
-```
-[Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
-You can feel free to enjoy making pixel art style physics simulations.
+You can learn how to basic laravel operation by following  
+
  
 # Requirement
  
 * Python 3.6.5
-* pyxel 1.0.2
+* Laravel 
  
 Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
  
