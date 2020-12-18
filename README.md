@@ -1,5 +1,8 @@
 ![ソースコードサイズ](https://img.shields.io/github/languages/code-size/upbook0426/laravel-bbs)
 
+![mybadge](https://img.shields.io/badge/%E3%83%A9%E3%83%99%E3%83%AB-1-fff)
+
+
 # laravel-bbs
  
 A simple bulletin board system based on PHP/Laravel and MySQL for lerning with laravel of CRUD operation
