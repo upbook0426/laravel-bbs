@@ -1,64 +1,18 @@
 ![ソースコードサイズ](https://img.shields.io/github/languages/code-size/upbook0426/laravel-bbs)
 
-![mybadge](https://img.shields.io/badge/%E3%83%A9%E3%83%99%E3%83%AB-1-fff)
-
-
 # laravel-bbs
  
-A simple bulletin board system based on PHP/Laravel and MySQL for lerning with laravel of CRUD operation
-targeted of inductory laravel.
- 
-  
+A simple bulletin board system based on PHP/Laravel and MySQL for lerning with laravel of CRUD operation.
+
 # Features
  
-You can learn how to basic laravel operation by following  
+You can learn how to basic laravel operation by following code directory.
 
  
 # Requirement
  
-* Python 3.6.5
-* Laravel 
+* Laravel 8.12
+* PHP 7.3
  
-Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
- 
-```bash
-conda create -n pyxel pip python=3.6 Anaconda
-activate pyxel
-```
- 
-# Installation
- 
-Install Pyxel with pip command.
- 
-```bash
-pip install pyxel
-```
- 
-# Usage
- 
-Please create python code named "demo.py".
-And copy &amp; paste [Day4 tutorial code](https://cpp-learning.com/pyxel_physical_sim4/).
- 
-Run "demo.py"
- 
-```bash
-python demo.py
-```
- 
-# Note
- 
-I don't test environments under Linux and Mac.
- 
-# Author
- 
-* Hayabusa
-* R&D Center
-* Twitter : https://twitter.com/Cpp_Learning
- 
-# License
- 
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-Enjoy making cute physics simulations!
  
 Thank you!
